@@ -36,6 +36,9 @@ async def main():
     await bot.load_extension("commands.poke")
     await bot.load_extension("commands.rolecreate")
     await bot.load_extension("commands.roleremove")
+    await bot.load_extension("commands.restrictword")
+    await bot.load_extension("commands.removeword")
+    await bot.load_extension("commands.restrictedwords")
     
     await bot.load_extension("events.message")
     await bot.load_extension("events.member")
