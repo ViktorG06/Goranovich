@@ -18,7 +18,6 @@ class MessageEvents(commands.Cog):
             "bye": "Goodbye!",
             "who": "Asked?",
             "tutrakan": "Top 2 cities, and it aint number 2",
-            "misho": "toi e vinoven",
             "zdr": "kp",
             "brat": "sestro"
         }
